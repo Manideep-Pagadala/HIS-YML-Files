@@ -1,0 +1,21 @@
+spring:
+  security:
+    user:
+      name: user
+      password: user
+
+  application:
+    name: SSN-SERVICE-PROVIDER
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:9090/
+        
+
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
