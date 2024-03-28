@@ -1,8 +1,4 @@
-spring:
-  security:
-    user:
-      name: user
-      password: user
+
 
   application:
     name: SSN-SERVICE-PROVIDER
